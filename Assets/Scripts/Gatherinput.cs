@@ -4,7 +4,9 @@ using UnityEngine.InputSystem;
 public class Gatherinput : MonoBehaviour
 {
   private Controls controls;
-  private float valueX;
+ [SerializeField] private float _valueX;
+
+    public float ValueX { get => _valueX; }
 
     private void Awake()
     {
@@ -19,10 +21,10 @@ public class Gatherinput : MonoBehaviour
     }
     private void startMove(InputAction.CallbackContext context)
     {
-        valueX = context.ReadValue<float>();
+        _valueX = context.ReadValue<float>();
         }
         private void StopMove (InputAction.CallbackContext context) {
-            valueX = 0;
+            _valueX = 0;
         }
     private void OnDisable()
     {
