@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6000000000000000001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6000000000000000002}
+  - component: {fileID: 6000000000000000003}
+  - component: {fileID: 6000000000000000004}
+  - component: {fileID: 6000000000000000005}
+  - component: {fileID: 6000000000000000006}
+  - component: {fileID: 6000000000000000007}
+  - component: {fileID: 6000000000000000008}
+  m_Layer: 8
+  m_Name: BatEnemy
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6000000000000000002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6000000000000000001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6000000000000000003
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_GameObject: {fileID: 6000000000000000001}
+  m_Enabled: 1
+  m_Sprite: {fileID: 5160337174065941027, guid: 7dbb9bbcf0000b94ba5494f069a4ea45, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_SortingLayerID: 1430479083
+  m_SortingLayer: 5
+  m_SortingOrder: 0
+--- !u!50 &6000000000000000004
+Rigidbody2D:
+  serializedVersion: 5
+  m_GameObject: {fileID: 6000000000000000001}
+  m_BodyType: 0
+  m_GravityScale: 0
+  m_Constraints: 4
+--- !u!70 &6000000000000000005
+CapsuleCollider2D:
+  m_GameObject: {fileID: 6000000000000000001}
+  m_Enabled: 1
+  m_IsTrigger: 0
+  m_Size: {x: 0.375, y: 0.8125}
+--- !u!95 &6000000000000000006
+Animator:
+  m_GameObject: {fileID: 6000000000000000001}
+  m_Controller: {fileID: 9100000, guid: 97ea85b283dfbf44984a1aa046d91e7d, type: 2}
+--- !u!114 &6000000000000000007
+MonoBehaviour:
+  m_GameObject: {fileID: 6000000000000000001}
+  m_Enabled: 1
+  m_Script: {fileID: 11500000, guid: 4d126fa980eab6a4285e416fbd4c17a5, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyBatAI
+  rb: {fileID: 6000000000000000004}
+  animator: {fileID: 6000000000000000006}
+  moveSpeed: 4
+  chaseRange: 6
+  attackRange: 1.2
+  attackCooldown: 1.5
+  attackDamage: 1
+  floatAmplitude: 0.35
+  floatFrequency: 2
+  attackDuration: 0.55
+  hurtDuration: 0.3
+--- !u!114 &6000000000000000008
+MonoBehaviour:
+  m_GameObject: {fileID: 6000000000000000001}
+  m_Enabled: 1
+  m_Script: {fileID: 11500000, guid: aaee06b2e5ba7d34b8080cfaabf36f6e, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  maxHealth: 3
+  spriteRenderer: {fileID: 6000000000000000003}
+  hitColor: {r: 1, g: 0.3, b: 0.3, a: 1}
+  flashDuration: 0.1

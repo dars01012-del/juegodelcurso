@@ -2,11 +2,6 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [Header("Vida")]
-    [SerializeField] private int maxHealth = 3;
-    [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private Color hitColor = Color.red;
-
     [Header("Movimiento")]
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float detectionRange = 6f;
@@ -14,32 +9,25 @@ public class Enemy : MonoBehaviour
     [Header("Ataque")]
     [SerializeField] private float attackRange = 1f;
     [SerializeField] private float attackCooldown = 1f;
-
-    private int currentHealth;
-    private Color originalColor;
+    [SerializeField] private int attackDamage = 1;
 
     private Transform player;
     private Rigidbody2D rb;
+    private PlayerHealth playerHealth;
 
     private float nextAttackTime;
     private bool isAttacking;
 
     private void Awake()
     {
-        currentHealth = maxHealth;
-
         rb = GetComponent<Rigidbody2D>();
 
-        if (spriteRenderer == null)
-            spriteRenderer = GetComponent<SpriteRenderer>();
-
-        if (spriteRenderer != null)
-            originalColor = spriteRenderer.color;
-
-        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-
-        if (playerObject != null)
-            player = playerObject.transform;
+        PlayerHealth foundPlayer = FindFirstObjectByType<PlayerHealth>();
+        if (foundPlayer != null)
+        {
+            player = foundPlayer.transform;
+            playerHealth = foundPlayer;
+        }
     }
 
     private void FixedUpdate()
@@ -50,23 +38,16 @@ public class Enemy : MonoBehaviour
         float distance = Vector2.Distance(transform.position, player.position);
 
         if (distance <= attackRange)
-        {
             Attack();
-        }
         else if (distance <= detectionRange)
-        {
             MoveToPlayer();
-        }
         else
-        {
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
-        }
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
     }
 
     private void MoveToPlayer()
     {
         float direction = Mathf.Sign(player.position.x - transform.position.x);
-
         rb.linearVelocity = new Vector2(direction * moveSpeed, rb.linearVelocity.y);
 
         Vector3 scale = transform.localScale;
@@ -82,41 +63,16 @@ public class Enemy : MonoBehaviour
             return;
 
         nextAttackTime = Time.time + attackCooldown;
-
         isAttacking = true;
 
-        Debug.Log("Ataque enemigo");
+        if (playerHealth != null)
+            playerHealth.TakeDamage(attackDamage, transform.position);
 
-        Invoke(nameof(FinishAttack), 0.5f);
+        Invoke(nameof(FinishAttack), 0.4f);
     }
 
     private void FinishAttack()
     {
         isAttacking = false;
-    }
-
-    public void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-
-        if (spriteRenderer != null)
-            spriteRenderer.color = hitColor;
-
-        if (currentHealth <= 0)
-            Die();
-        else
-            Invoke(nameof(ResetColor), 0.1f);
-    }
-
-    private void ResetColor()
-    {
-        if (spriteRenderer != null)
-            spriteRenderer.color = originalColor;
-    }
-
-    private void Die()
-    {
-        CancelInvoke(nameof(ResetColor));
-        Destroy(gameObject);
     }
 }

@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: 95a3b636a3a9fdb44a83fa485e9fd0c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5057737601308912332
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_0
+  - first:
+      213: -7249639425046910200
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_1
+  - first:
+      213: -389606703460669983
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_2
+  - first:
+      213: 8352348816046788109
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_3
+  - first:
+      213: -1088420490828157516
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_4
+  - first:
+      213: -4139354486143291455
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_5
+  - first:
+      213: 467779846399987611
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_6
+  - first:
+      213: 8296294021193189596
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_7
+  - first:
+      213: -2069517236013601348
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_8
+  - first:
+      213: -1581889963326935541
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_9
+  - first:
+      213: -6639227625119539265
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_10
+  - first:
+      213: 4531556882804385959
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_11
+  - first:
+      213: -3725710506848021813
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_12
+  - first:
+      213: 148724258744399282
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_13
+  - first:
+      213: 3427001193731422690
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_14
+  - first:
+      213: 4403001922773173863
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_15
+  - first:
+      213: -5696078598367170207
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_16
+  - first:
+      213: -1988463435597557109
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_17
+  - first:
+      213: 7062388621524849915
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_18
+  - first:
+      213: 388006994396172383
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_19
+  - first:
+      213: 4294880370955560043
+    second: PC _ Computer - BioEvil 4 - Enemies - Diego_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 54
+        width: 42
+        height: 30
+      alignment: 9
+      pivot: {x: 0.008196024, y: 0.0001771455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf620ea60f0e86c0800000000000000
+      internalID: -4139354486143291455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 46
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.049176145, y: 0.0008857275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2126f980e9b4cc0800000000000000
+      internalID: -3725710506848021813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 46
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.049176145, y: 0.0008857275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b571f3ecef501200800000000000000
+      internalID: 148724258744399282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_14
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 46
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.049176145, y: 0.0008857275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9733dbd672f8f20800000000000000
+      internalID: 3427001193731422690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 43
+        height: 27
+      alignment: 9
+      pivot: {x: 0.008005419, y: 0.00019682833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766c140bbea9a1d30800000000000000
+      internalID: 4403001922773173863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1
+        width: 41
+        height: 43
+      alignment: 9
+      pivot: {x: 0.008395927, y: 0.00012358988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161be93a1b673f0b0800000000000000
+      internalID: -5696078598367170207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1
+        width: 29
+        height: 41
+      alignment: 9
+      pivot: {x: 0.011870104, y: 0.00012961865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82da586a0f8764e0800000000000000
+      internalID: -1988463435597557109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_18
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1
+        width: 42
+        height: 26
+      alignment: 9
+      pivot: {x: 0.008196024, y: 0.00020439866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4dfbb7805a20260800000000000000
+      internalID: 7062388621524849915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_19
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0.024588073, y: 0.000253065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50d95f3e4a726500800000000000000
+      internalID: 388006994396172383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_20
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0.024588073, y: 0.000253065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64aa9f21fa7a9b30800000000000000
+      internalID: 4294880370955560043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.049176145, y: 0.0008857275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adca7d7228d5b745937ea488ff675ff
+      internalID: 5057737601308912332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 89
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.049176145, y: 0.0008857275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644cf2a4ef0bab848a3ec122896abf70
+      internalID: -7249639425046910200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 89
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.049176145, y: 0.0008857275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1881c8bcd0dc9c449c5fa85f5287381
+      internalID: -389606703460669983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 89
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.049176145, y: 0.0008857275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee70cc5abd819247a6c136e365bf302
+      internalID: 8352348816046788109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 89
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.049176145, y: 0.0008857275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9eddf6d013a664f8a542870bf46611
+      internalID: -1088420490828157516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 54
+        width: 43
+        height: 30
+      alignment: 9
+      pivot: {x: 0.008005419, y: 0.0001771455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff430217bc6a7a54ebd7350b244f6971
+      internalID: 467779846399987611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 54
+        width: 42
+        height: 32
+      alignment: 9
+      pivot: {x: 0.008196024, y: 0.0001660739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2709626f9ba47449870398103bcdaf
+      internalID: 8296294021193189596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 54
+        width: 41
+        height: 31
+      alignment: 9
+      pivot: {x: 0.008395927, y: 0.00017143114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d107695daaae3dd4aa259a3f983a015e
+      internalID: -2069517236013601348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.049176145, y: 0.0008857275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85956353412543b478be6be92e28f2b9
+      internalID: -1581889963326935541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 46
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.049176145, y: 0.0008857275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e67550cf2dbac04083968038504face
+      internalID: -6639227625119539265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - BioEvil 4 - Enemies - Diego_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 46
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0.049176145, y: 0.0008857275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe3af5c37d9d8047a9f8ee5990344cd
+      internalID: 4531556882804385959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c42bb2db5962a5b4b9f9dcb36c83cc2e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0053786407224833969,"y":0.00008303695358335972},"pivotPixels":{"x":0.3442330062389374,"y":0.005314365029335022},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      PC _ Computer - BioEvil 4 - Enemies - Diego_0: 5057737601308912332
+      PC _ Computer - BioEvil 4 - Enemies - Diego_1: -7249639425046910200
+      PC _ Computer - BioEvil 4 - Enemies - Diego_10: -6639227625119539265
+      PC _ Computer - BioEvil 4 - Enemies - Diego_11: 4531556882804385959
+      PC _ Computer - BioEvil 4 - Enemies - Diego_12: -3725710506848021813
+      PC _ Computer - BioEvil 4 - Enemies - Diego_13: 148724258744399282
+      PC _ Computer - BioEvil 4 - Enemies - Diego_14: 3427001193731422690
+      PC _ Computer - BioEvil 4 - Enemies - Diego_15: 4403001922773173863
+      PC _ Computer - BioEvil 4 - Enemies - Diego_16: -5696078598367170207
+      PC _ Computer - BioEvil 4 - Enemies - Diego_17: -1988463435597557109
+      PC _ Computer - BioEvil 4 - Enemies - Diego_18: 7062388621524849915
+      PC _ Computer - BioEvil 4 - Enemies - Diego_19: 388006994396172383
+      PC _ Computer - BioEvil 4 - Enemies - Diego_2: -389606703460669983
+      PC _ Computer - BioEvil 4 - Enemies - Diego_20: 4294880370955560043
+      PC _ Computer - BioEvil 4 - Enemies - Diego_3: 8352348816046788109
+      PC _ Computer - BioEvil 4 - Enemies - Diego_4: -1088420490828157516
+      PC _ Computer - BioEvil 4 - Enemies - Diego_5: -4139354486143291455
+      PC _ Computer - BioEvil 4 - Enemies - Diego_6: 467779846399987611
+      PC _ Computer - BioEvil 4 - Enemies - Diego_7: 8296294021193189596
+      PC _ Computer - BioEvil 4 - Enemies - Diego_8: -2069517236013601348
+      PC _ Computer - BioEvil 4 - Enemies - Diego_9: -1581889963326935541
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
